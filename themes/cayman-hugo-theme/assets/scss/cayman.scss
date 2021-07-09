@@ -56,10 +56,6 @@ body {
 a {
   color: $body-link-color;
   text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 .btn {
@@ -355,4 +351,22 @@ a {
 
 .site-footer-credits {
   color: $blockquote-text-color;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.article-list-item {
+  margin-bottom: 3em;
+}
+
+span.article-list-title {
+  font-size: 1.5rem;
+}
+
+span.secondary-text {
+  color: $blockquote-text-color;
+  margin-left: 0.5rem;
 }
