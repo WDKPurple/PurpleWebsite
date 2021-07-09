@@ -36,6 +36,10 @@
     color: var(--content);
 }
 
+.post-content strong {
+    color: var(--content-strong-purple);
+}
+
 .post-content h3,
 .post-content h4,
 .post-content h5,

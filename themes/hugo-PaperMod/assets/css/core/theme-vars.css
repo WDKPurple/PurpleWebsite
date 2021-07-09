@@ -12,6 +12,7 @@
     --secondary: rgba(0, 0, 0, 0.56);
     --tertiary: rgba(0, 0, 0, 0.16);
     --content: rgba(0, 0, 0, 0.88);
+    --content-strong-purple: #683c9c;
     --hljs-bg: #1c1d21;
     --code-bg: #f5f5f5;
     --border: #eee;
@@ -24,6 +25,7 @@
     --secondary: rgba(255, 255, 255, 0.56);
     --tertiary: rgba(255, 255, 255, 0.16);
     --content: rgba(255, 255, 255, 0.74);
+    --content-strong-purple: #8657ba;
     --hljs-bg: #2e2e33;
     --code-bg: #37383e;
     --border: #333;
