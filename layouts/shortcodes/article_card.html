@@ -1,0 +1,52 @@
+<section style="position: static; box-sizing: border-box;">
+	<section style="margin-top: 10px; margin-bottom: 10px; text-align: center; position: static; box-sizing: border-box;">
+		<section style="display: inline-block; width: 95%; border: 1px solid rgb(192, 200, 209); padding: 10px; background-color: var(--code-bg); box-shadow: rgb(170, 170, 170) 0px 0px 10px; border-radius: 12px; overflow: hidden; box-sizing: border-box;">
+			<section style="margin: 0px 0%; position: static; box-sizing: border-box;">{{ if .Get "src" }}
+				<a href='{{ or (.Get "href") "#" }}' style="box-shadow: 0 0px; box-sizing: border-box;">
+					<section style="display: inline-block; vertical-align: middle; width: 25%; box-shadow: rgb(0, 0, 0) 0px 0px 0px; border-width: 0px; box-sizing: border-box;">
+						<section style="position: static; box-sizing: border-box;">
+							<section style="margin: 8px auto 4px; position: static; box-sizing: border-box;">
+								<section style="max-width: 100%; border-radius: 10px; display: inline-block; line-height: 0; border-width: 0px; box-shadow: rgb(0, 0, 0) 0px 0px 0px; border-style: none; border-color: rgb(62, 62, 62); overflow: hidden; box-sizing: border-box;">
+									<img src='{{.Get "src" }}' style="vertical-align: middle; max-width: 100%; box-sizing: border-box;">
+								</section>
+							</section>
+						</section>
+					</section>
+				</a>{{ end }}
+				<section style="display: inline-block; vertical-align: middle; width: 70%; box-shadow: rgb(0, 0, 0) 0px 0px 0px; padding: 0px 0px 0px 20px; box-sizing: border-box;">
+					<a href='{{ or (.Get "href") "#" }}' style="box-sizing: border-box;">
+						<section style="position: static; box-sizing: border-box;">
+							<section style="margin-top: 10px; margin-bottom: 10px; text-align: left; position: static; box-sizing: border-box;">
+								<section style="padding: 3px; display: inline-block; vertical-align: middle; box-sizing: border-box;">
+									<section style="border-radius: 5px; background-color: rgb(190, 160, 200); box-sizing: border-box;">
+										<section style="border-radius: 5px; border-color: rgb(77, 77, 77); padding-left: 8px; padding-right: 8px; border-style: dashed; border-width: 1px; display: inline-block; vertical-align: top; margin: -3px 3px 3px -3px; font-size: 14px; color: rgb(255, 255, 255); box-sizing: border-box;">
+											<p style="margin: 0px; padding: 0px; box-sizing: border-box;">
+												<span style="font-size: 16px; box-sizing: border-box;">
+													<strong style="box-sizing: border-box;">
+														<span style="color: rgb(104, 60, 156); box-sizing: border-box;">{{ or (.Get "id") "01" }}</span>
+													</strong>
+												</span>
+												<span style="letter-spacing: 0px; box-sizing: border-box;">{{ (or (.Get "title") "title") | markdownify }}</span>
+											</p>
+										</section>
+									</section>
+								</section>
+							</section>
+						</section>
+					</a>{{ if .Inner }}
+					<section style="box-sizing: border-box;">
+						<a href='{{ or (.Get "href") "#" }}' style="box-sizing: border-box;">
+							<section style="position: static; box-sizing: border-box;">
+								<section style="text-align: justify; font-size: 12px; box-sizing: border-box;">
+									<p style="white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;">
+										<strong style="box-sizing: border-box;">{{ .Inner | markdownify }}</strong>
+									</p>
+								</section>
+							</section>
+						</a>
+					</section>{{ end }}
+				</section>
+			</section>
+		</section>
+	</section>
+</section>
