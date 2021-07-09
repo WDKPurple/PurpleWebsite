@@ -4,7 +4,7 @@ date: 2021-07-08
 draft: false
 authors: ["Purple"]
 cover:
-  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20210708_banner.png"
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20210708_banner_1300px.webp"
 tags: ["通告"]
 ---
 

@@ -88,8 +88,6 @@ params:
         Content: >
             - 我们是Purple，一个位于五道口的学生组织，致力于为性少数群体创造一个多元友善的环境🌈 
 
-            - 成立于2015
-
     socialIcons:
         - name: email
           url: "mailto:wdkpurple@outlook.com"
