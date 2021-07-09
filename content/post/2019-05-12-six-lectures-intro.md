@@ -3,10 +3,9 @@ title: "酷儿理论六讲 | 引言 · 反直觉、质疑与必要性"
 date: 2019-05-12
 authors: ["狐狸先生"]
 tags: ["酷儿理论六讲"]
-image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_001.webp"
+cover:
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_001.webp"
 ---
-
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_001.webp)
 
 ## 引言
 

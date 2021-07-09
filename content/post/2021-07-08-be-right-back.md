@@ -1,13 +1,12 @@
 ---
-title: "Purple很快就回来！"
+title: "通告 | Purple很快就回来！"
 date: 2021-07-08
 draft: false
 authors: ["Purple"]
-image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20210708_banner.png"
-tags: ["Purple"]
+cover:
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20210708_banner.png"
+tags: ["通告"]
 ---
-
-![We'll be right back](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20210708_banner.png)
 
 致各位关心WDK Purple的读者朋友：
 
