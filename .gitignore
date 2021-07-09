@@ -1,3 +1,5 @@
 resources/_gen/
 public/
 content/.DS_Store
+worker-website/
+wrangler.toml
