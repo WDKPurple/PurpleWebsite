@@ -8,9 +8,7 @@
         {{ . }}
       </h4>
     </header>{{ end }}{{ with (.Get "caption") }}
-    <section class="entry-content">
-      <p>{{ . | markdownify }}</p>
-    </section>{{ end }}
+    <section class="entry-content">{{ . | markdownify }}</section>{{ end }}
   </section>
   <a class="entry-link" href="{{ or (.Get "href") "#" }}"></a>
 </article>

@@ -1,0 +1,61 @@
+<p>
+	<section style="padding-bottom: 4px">
+		<section style="display: inline-block; width: 20%; vertical-align: top;">
+			<img loading="lazy" src="{{ .Get "avatar" }}" width="100%">
+		</section>
+		<section style="display: inline-block; width: 75%; vertical-align: top;">{{ .Inner | markdownify }}</section>
+	</section>{{ if .Get "image0" }}
+	<section style="padding-bottom: 4px">
+		<section style="display: inline-block; width: 20%; vertical-align: middle;">
+		</section>
+		<section style="display: inline-block; width: calc(75% + 8px); vertical-align: middle;">{{ with (.Get "image0") }}
+			<img loading="lazy" src="{{ . }}" width="100%">{{ end }}
+		</section>
+	</section>{{ else }}{{ if or (.Get "image1") (or (.Get "image2") (.Get "image3")) }}
+	<section style="padding-bottom: 4px">
+		<section style="display: inline-block; width: 20%; vertical-align: middle;">
+		</section>
+		<section style="display: inline-block; width: 25%; vertical-align: middle;">{{ with (.Get "image1") }}
+			<img loading="lazy" src="{{ . }}" width="100%">{{ end }}
+		</section>
+		<section style="display: inline-block; width: 25%; vertical-align: middle;">{{ with (.Get "image2") }}
+			<img loading="lazy" src="{{ . }}" width="100%">{{ end }}
+		</section>
+		<section style="display: inline-block; width: 25%; vertical-align: middle;">{{ with (.Get "image3") }}
+			<img loading="lazy" src="{{ . }}" width="100%">{{ end }}
+		</section>
+	</section>{{ end }}{{ if or (.Get "image4") (or (.Get "image5") (.Get "image6")) }}
+	<section style="padding-bottom: 4px">
+		<section style="display: inline-block; width: 20%; vertical-align: middle;">
+		</section>
+		<section style="display: inline-block; width: 25%; vertical-align: middle;">{{ with (.Get "image4") }}
+			<img loading="lazy" src="{{ . }}" width="100%">{{ end }}
+		</section>
+		<section style="display: inline-block; width: 25%; vertical-align: middle;">{{ with (.Get "image5") }}
+			<img loading="lazy" src="{{ . }}" width="100%">{{ end }}
+		</section>
+		<section style="display: inline-block; width: 25%; vertical-align: middle;">{{ with (.Get "image6") }}
+			<img loading="lazy" src="{{ . }}" width="100%">{{ end }}
+		</section>
+	</section>{{ end }}{{ if or (.Get "image7") (or (.Get "image8") (.Get "image9")) }}
+	<section style="padding-bottom: 4px">
+		<section style="display: inline-block; width: 20%; vertical-align: middle;">
+		</section>
+		<section style="display: inline-block; width: 25%; vertical-align: middle;">{{ with (.Get "image7") }}
+			<img loading="lazy" src="{{ . }}" width="100%">{{ end }}
+		</section>
+		<section style="display: inline-block; width: 25%; vertical-align: middle;">{{ with (.Get "image8") }}
+			<img loading="lazy" src="{{ . }}" width="100%">{{ end }}
+		</section>
+		<section style="display: inline-block; width: 25%; vertical-align: middle;">{{ with (.Get "image9") }}
+			<img loading="lazy" src="{{ . }}" width="100%">{{ end }}
+		</section>
+	</section>{{ end }}{{ end }}
+	<section>
+		<section style="display: inline-block; width: 20%; vertical-align: middle;">
+		</section>
+		<section style="display: inline-block; width: calc(75% + 8px); vertical-align: middle; background-image: url('https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/fake_pyq_icon_1.png'); background-position: right; background-repeat: no-repeat; background-size: auto 20px;">
+			<small>{{ or (.Get "time") "26分钟前" }}</small>
+		</section>
+	</section>
+</p>
