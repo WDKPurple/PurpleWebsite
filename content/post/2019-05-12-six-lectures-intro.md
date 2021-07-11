@@ -4,14 +4,15 @@ date: 2019-05-12
 authors: ["DT君"]
 tags: ["酷儿理论六讲"]
 cover:
-  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_001.webp"
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_banner.webp"
 ---
 
-## 引言
+{{% quote_purple center="true" align="center" %}}
+***引言***<br>
+*<small>反直觉、质疑与必要性</small>*
+{{% /quote_purple %}}
 
-### 反直觉、质疑与必要性
-
-这一系列文章是对酷儿理论的概述。然而我们并不想亦步亦趋地综述已有的酷儿理论文本。这样的综述文献已经汗牛充栋[1]，增加一条毫无益处。相反地，我们只是批判性地选取了一部分理论文本，并试图将其重新放回在一个更加**唯物主义**的基础之上。无视社会中坚实的物质基础、坚实的社会权力关系网的研究已经走得太远，只能成为左翼学术精英的娱乐或者对社会运动的可怜回声了。我们不想重走这条走不通的路。当然，这里所引用的文献都给出了出处，如果读者感兴趣，可以去查阅那些文献，并形成与我们完全不同的见解。
+这一系列文章是对酷儿理论的概述。然而我们并不想亦步亦趋地综述已有的酷儿理论文本。这样的综述文献已经汗牛充栋**[1]**，增加一条毫无益处。相反地，我们只是批判性地选取了一部分理论文本，并试图将其重新放回在一个更加**唯物主义**的基础之上。无视社会中坚实的物质基础、坚实的社会权力关系网的研究已经走得太远，只能成为左翼学术精英的娱乐或者对社会运动的可怜回声了。我们不想重走这条走不通的路。当然，这里所引用的文献都给出了出处，如果读者感兴趣，可以去查阅那些文献，并形成与我们完全不同的见解。
 
 当然，酷儿（queer）在英语中的意思不像它的中文翻译那么「酷」。它的原意接近于「异常」「变态」等等，在它被性少数群体借用之前，它都是用来侮辱性少数群体的。剧集Queer As Folk被翻译成《同志亦凡人》，但如果要贴近英语语境的意思，更恰切的翻译应该是《变态也是人》。总的来说，这个词本来指涉的就是那些**反规范**的行为，尤其是性行为。酷儿理论（queer theory）则不止是对反规范的性行为进行研究的理论；**它要以反规范的性行为作为窗口，去透视规范本身，研究规范生成的历史和运作机制，并特别注意规范运作的压迫性。**
 
@@ -63,17 +64,17 @@ title="20世纪70年代美国的同性恋平权运动"
 
 {{% quit_post_content %}}
 
-{{< article_card_2 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_901.webp"
+{{< article_card_2 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20160524_banner_small.webp"
 title="他山之石 |《直人思维》"
 caption="「女同性恋不是女人」"
 >}}
 
-{{< article_card_2 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_902.webp"
+{{< article_card_2 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20161129_banner_small.webp"
 title="马克思主义对待同性恋是什么态度？"
 caption="对待女权和性少数群体解放运动的态度，是试探真假马克思主义的一个标志。"
 >}}
 
-{{< article_card_2 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_903.webp"
+{{< article_card_2 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20170323_banner_small.webp"
 title="性少数群体九问"
 caption="最常问到的九个问题，回答在这里！"
 >}}
