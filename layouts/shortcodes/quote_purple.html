@@ -1,3 +1,4 @@
+<p>
 {{ if eq (.Get "center") "true" }}<section style="text-align: center;">
 {{ end }}<section style="display: inline-block; min-width: {{ or (.Get "minwidth") "10%" }}; max-width: {{ or (.Get "maxwidth") "100%" }}; vertical-align: top; padding: 3px 10px 6px; border-width: 1px;  border-style: solid none; border-color: rgb(62, 62, 62);">
 <section>
@@ -46,3 +47,4 @@
 </section>
 {{ if eq (.Get "center") "true" }}</section>
 {{ end }}
+</p>

@@ -3,3 +3,4 @@ public/
 workers-site/
 wrangler.toml
 .DS_Store
+*.exe
