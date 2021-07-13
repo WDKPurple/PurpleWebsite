@@ -3,9 +3,8 @@ title: "文档"
 date: 2021-07-12
 draft: true
 tags: ["文档"]
+ShowToc: true
 ---
-
-{{< toc >}}
 
 # 图床使用指南
 
@@ -411,6 +410,15 @@ caption="描述(可选,支持markdown语法)"
 #### 例子
 
 ~~~
+若你只想放置一个居中图片，一般使用如下代码 (注意，放置 purple logo 有专用模板)：
+
+{{</* figure
+align="center"
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/purple_logo_256px.png"
+*/>}}
+
+下面是别的例子：
+
 {{</* figure
 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/purple_logo_256px.png"
 title="Purple logo"
@@ -436,6 +444,15 @@ caption=`多行文本示例：
 _学生组织_`
 */>}}
 ~~~
+
+若你只想放置一个居中图片，一般使用如下代码 (注意，放置 purple logo 有专用模板)：
+
+{{< figure
+align="center"
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/purple_logo_256px.png"
+>}}
+
+下面是别的例子：
 
 {{< figure
 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/purple_logo_256px.png"
@@ -837,7 +854,7 @@ dur="10s"
 {{</* toc */>}}
 ~~~
 
-这篇文章开头就用了这个模板插入目录。
+注：要插入目录，在文章头部设置 `ShowToc: true` 即可。
 
 ## purple 居中 logo
 
@@ -854,3 +871,18 @@ dur="10s"
 ~~~
 
 {{< need_more_voices >}}
+
+# 文章头部格式
+
+~~~~
+---
+title: "文章标题"
+date: 文章日期 (若晚于当前日期则该文章不会显示)，格式 yyyy-mm-dd，示例: 2021-05-28
+draft: 可选，false或true，表示是否草稿，草稿文章仅在本地预览可见，默认false
+authors: 可选，格式 ["作者1", "作者2", ……]
+cover:
+  image: "封面图片地址" (可选，若指定则在文章最前面以及文章列表中显示封面图片，若不指定，请将 cover 和 image 都删掉)
+ShowToc: 可选，false或true，表示是否显示目录，默认false
+tags: 可选，格式 ["标签1", "标签2", ……]
+---
+~~~~
