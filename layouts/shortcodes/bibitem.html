@@ -1,4 +1,6 @@
 <section style="position: static; box-sizing: border-box;">
-	<section style="display: inline-block; vertical-align: top; width: 8%; box-sizing: border-box; text-align: right;"><strong>{{ or (.Get "id") "[1]" }}</strong></section>
+	<section style="display: inline-block; vertical-align: top; width: 8%; box-sizing: border-box; text-align: right; white-space: nowrap;">
+		<section style="float: right;"><strong>{{ or (.Get "id") "[1]" }}</strong></section>
+	</section>
 	<section style="display: inline-block; vertical-align: top; width: 90%; box-sizing: border-box; padding: 0% 0% 0% 1%;">{{ .Inner | markdownify }}</section>
 </section>
