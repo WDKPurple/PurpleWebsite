@@ -5,6 +5,7 @@ draft: false
 authors: ["郑侑安"]
 cover:
   image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-0.webp"
+ShowToc: true
 tags: ["转载"]
 ---
 
@@ -20,13 +21,10 @@ tags: ["转载"]
 
 「关锦鹏曾经劝我不要拍同志题材的电影，他说受众群少，电影人最好还是拍多一些观众层面的题材。」洪荣杰不太认同，**「这些题材我们自己不拍，就没人拍。而且同志不拿自己的亲身体验来拍，异性恋来拍LGBT题材可能会很差。异性恋在自己的世界里，很难做这种创作，最后的结果往往很刻板。」**他立刻提到一部新世纪初上映，很有噱头的港产片，说这种体验很糟糕。
 
-
-
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-1.webp)
-
-**独立导演洪荣杰首部长片《无声风铃》海报。**
-
-
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-1.webp"
+title="独立导演洪荣杰首部长片《无声风铃》海报。"
+>}}
 
 洪荣杰小学、中学读男校，学校有恐同氛围。除被同学开羞辱意味的玩笑，当时媒体对性小众的刻画，也让他对LGBT抗拒反感，「亚视和无线都有这样的电视节目，电影也有。男人扮女人搞笑，用很夸张的动作，很笨拙的举止来制造很低俗的笑料，那种扮演方式是对Queer的一种冒犯，说同志就是‘乸型’（娘娘腔），异服就是‘变态’，把这些词跟冒犯和羞耻捆绑在一起，都是污名化的词语。」好几年内，他都没能正视自己的同志身份。
 
@@ -38,10 +36,10 @@ tags: ["转载"]
 
 
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-2.webp)
-
-**「任白」指的是香港粤剧名家任剑辉和白雪仙。**
-
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-2.webp"
+title="「任白」指的是香港粤剧名家任剑辉和白雪仙。"
+>}}
 
 
 香港电影与性小众群体形象的关系可以如此粗暴地一言以蔽之，但背后也有长期脉络。**易以闻将涉及LGBT的香港影视作品分为大致四个类别。第一类多是上世纪50至70年代，电影故事本身，剧本，角色，演员都未必和LGBT有关，但内容不经意令性小众群体代入，观众投射情感在其中不断讨论，令这些作品变成性小众文化符号；第二类是电影有幕前或幕后成员为LGBT，但内容与LGBT无关；第三类作品生于更开放的时代，电影直接书写LGBT故事或有公开的LGBT角色；第四类则因创作者是公开LGBT，无论拍什么作品都会被纳入LGBT作品范畴。**银幕多年来的性小众形象发展，也是华人社会保守气氛下的压抑与拉扯。
@@ -52,9 +50,10 @@ tags: ["转载"]
 
 
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-3.webp)
-
-**「任白」 剧照**
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-3.webp"
+title="「任白」 剧照"
+>}}
 
 
 
@@ -63,35 +62,38 @@ tags: ["转载"]
 
 # 被压抑、被接纳后仍是异性恋的文本模样
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-4.webp)
-
-**姜大卫和狄龙。**
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-4.webp"
+title="姜大卫和狄龙。"
+>}}
 
 压抑的另一投射出口，是张彻的电影。**他将狄龙、姜大卫放一起，制造难以归类的男性情谊，作品还大量加入男星裸露上身的打斗，异性恋眼中这些画面是热血、暴力冲动，性小众群体眼中，他们的压抑彷彿得到共鸣。**书籍《男男正传：香港年长男同志口述史》采访的老年同志有人提到，狄龙正是当年他们一个银幕幻想对象。**
 **
 
 
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-5.webp)
-
-**《男男正传：香港年长男同志口述史》(2014)**
-
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-5.webp"
+title="《男男正传：香港年长男同志口述史》(2014)"
+>}}
 
 
 六七十年代西方思潮不断，社会越来越开放，**性解放运动后，LGBT也走入主流视野。易认为这恰恰造成华人社会愈发压抑。**「华人社会骨子里极度保守，虽然大家都知道社会上存在同性行为，但都不闻不问也不提，西方的思潮来到港台都无法落地，这时候看到海外思潮的华人们只会更加压抑。观众无法在银幕上看到真实的LGBT形象，他们只能投射。」
 
 易将邵氏出品的《面具》（1974）视为社会氛围压抑到极端后的作品。编剧为70年代畅销小说家依达，他写了个剧本，讲初入行男模特游走女人堆中被玩弄的故事。电影卖点是主演秦汉与数位香艳女明星的床戏，很少人留意这可能是依达夫子自道的作品。他安插了一个配角——暗恋秦汉的夜总会艺人——并亲身扮演这个角色。尽管这是个对主线几乎无任何影响的角色，依达却为他写了完整的心路历程，情绪铺排、起承转合也非常仔细。依达写的同性恋角色不仅毫不掩饰说出身份，还详细叙述自己的压抑。当时的社会环境下，依达为角色准备了悲惨经历，写他并非自愿变成同性恋，图以惨痛心路寻求观众同情。「当年的主流观众当然并不理会，他们要么去看秦汉，要么去看戏中的美女明星。我惊讶的是这样的态度到了更开放的八九十年代，甚至2000年后都没有变过。」
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-6.webp)
-
-**《面具》（1974）**
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-6.webp"
+title="《面具》（1974）"
+>}}
 
 **七十年代末社会进步，本土意识抬头后，本地精英份子开始接纳同性恋者。**「《号外》杂志有些前卫描绘，性小众群体有了一小块自己的场地。可大银幕的性小众形象依然极端保守，依然和变态、不正常挂钩。」他例举杨凡导演的《意乱情迷》（1987），「你能想像吗？李志超在里面客串了一个被丑化的性小众角色，一个露体狂。」杨凡作品在香港电影讨论中常被纳入LGBT归类，依然对该群体有不友善的描绘。**
 **
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-7.webp)
-
-**《意乱情迷》(1987)**
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-7.webp"
+title="《意乱情迷》(1987)"
+>}}
 
 
 
@@ -99,16 +101,19 @@ tags: ["转载"]
 
 
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-8.webp)
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-8.webp"
+title="《春光乍洩》(1997)"
+>}}
 
-**《春光乍洩》(1997)**
 
 「当年有一部电影尝试要扭转这件事，《基佬四十》，舒琪导演，邝文伟编剧。电影对八十年代以降的文化氛围很有意见，真的想讲一段同性关系，讲这个群体的生活状态。」易以闻认为电影的遗憾之处是演员未能成功传达文本内容。**
 **
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-9.webp)
-
-**《基佬四十》(1997)**
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-9.webp"
+title="《基佬四十》(1997)"
+>}}
 
 
 
@@ -122,20 +127,19 @@ tags: ["转载"]
 
 
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-10.webp)
-
-**洪荣杰导演短片《Forever 17》海报。**
-
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-10.webp"
+title="洪荣杰导演短片《Forever 17》海报。"
+>}}
 
 
 在易以闻看来，2019年-2020年度备受金马和金像肯定的《叔・叔》已不如过去极端，但编导透露的角度、情绪依然是希望主流价值予以同情。**「在美国同志运动史和同志电影史上，寻求异性恋者/主流同情是一个非常初阶的阶段。90年代开始，性小众群体在西方电影里的形象就逐渐摆脱了乞求同情这条路。他们已经在拍性小众群体的心路历程，他们的世界和圈子，他们的信念和价值观。」**他指出港产片之所以性小众形象还在乞求同情，因为华人社会很大程度还在继承、传达陈旧家庭价值观，「经济繁荣和物质生活是一回事，但对权威的服从，对家庭的守旧几十年来没变过。」**
 **
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-11.webp)
-
-**由杨曜恺执导及编剧的电影《叔・叔》海报。**
-
-
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-11.webp"
+title="由杨曜恺执导及编剧的电影《叔・叔》海报。"
+>}}
 
 **除了《叔・叔》，近年重要的性小众题材电影还有《翠丝》及《女人就是女人》。**两部电影在2018-19年间一前一后上映，与《叔・叔》一样，都将镜头对准过往不讨好、甚至毫无能见度的性小众群体。两剧导演李骏硕和孙明希都是首次执导剧情长片。两剧在本地影展相遇，一起举办映后谈，观众间多了不少对跨性别人士的讨论。
 
@@ -148,9 +152,10 @@ tags: ["转载"]
 电影制作也遇到很多实际困难，「中学生的故事，光是要找到一间中学允许我们拍摄已经很不容易，常常遇到的情况是，下一周就要拍摄了，这一周学校才通知我们，不可以拍摄。」租借场地时，制片会诚实向学校介绍电影大致主题，「学校也有很多关，有时候老师ok，校长不ok，有时候老师校长都ok，家长不ok，或者老师家长校长ok，但校董不愿意。」
 
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-12.webp)
-
-**电影《女人就是女人》讲述了两位跨性别女性的故事。**
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-12.webp"
+title="电影《女人就是女人》讲述了两位跨性别女性的故事。"
+>}}
 
 
 
@@ -162,9 +167,10 @@ tags: ["转载"]
 
 
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-13.webp)
-
-**李骏硕导演作品《翠丝》海报。**
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-13.webp"
+title="李骏硕导演作品《翠丝》海报。"
+>}}
 
 
 # 性别是一种介入
@@ -176,18 +182,21 @@ tags: ["转载"]
 
 
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-14.webp)
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-14.webp"
+title="导演李骏硕"
+>}}
 
-**导演李骏硕**
 
 媒体传播渠道随时代变迁，过去主流审美的挟持力也弱了。孙明希一直以为异性恋和性小众的世界没分别，「我和我的同龄人对LGBT的了解，多数来自YouTube和IG，也看各种平台上的真人show和戏剧节目。」从一开始，她就接触到很多立体的性小众形象，「虽然我的中学有宗教背景，我早期也没接触到学校公开谈论LGBT的不是，只是听说。我的同学不管是和男生还是和女生交往，我们都一样去八卦，很少察觉二者之间的分别。」到大学，孙明希才真的接触到恐同人士。再到拍摄短片，才发现银幕性小众形象的偏颇。
 
 「香港的观众对跨性别人士的了解相对来说真的很少。」《女人就是女人》去日本大坂电影节参展，孙明希接触到完全不同的观众，「它本来不是一个关于LGBT的电影节，但前来的观众对LGBT却相当了解，比我了解的还更开放，而且很支持我们，放映完排长队和主角Tomo拍照，然后和我们交流比如日本电影里的跨性别人士和我们的电影里有什么不同。」
 
 
-![img](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-15.webp)
-
-**《女人就是女人》导演孙明希**
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-15.webp"
+title="《女人就是女人》导演孙明希"
+>}}
 
 
 
