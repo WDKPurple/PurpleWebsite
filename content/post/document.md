@@ -66,6 +66,22 @@ Text can be **bold**, _italic_, ***bold and italic*** or ~~strikethrough~~. [Lin
 
 <small>small</small> text
 
+### 插入到网站内部页面的超链接
+
+语法：
+
+```
+[链接文本]({{</* ref "md源文件地址(例如post/xxx.md)" */>}})
+```
+
+例子：
+
+```
+[第一讲 · 社会性别与性别的描述学]({{</* ref "post/2019-06-17-six-lectures-1.md" */>}})
+```
+
+[第一讲 · 社会性别与性别的描述学]({{< ref "post/2019-06-17-six-lectures-1.md" >}})
+
 ## 段落
 
 ```
