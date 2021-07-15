@@ -1,12 +1,42 @@
-<article class="post-entry">{{ with (.Get "src") }}
+{{- $my_href := or (.Get "href") "#" -}}
+{{- $my_title := .Get "title" -}}
+{{- $my_caption := .Get "caption" -}}
+{{- $my_src := .Get "src" -}}
+{{- if .Get "page" -}}
+  {{- $my_page := .Page.GetPage (.Get "page") -}}
+  {{- $my_href = $my_page.Permalink | safeHTMLAttr -}}
+  {{- $my_title = or $my_title $my_page.Title -}}
+  {{- if $my_caption -}}
+  {{- else -}}
+    {{- $my_caption = $my_page.Summary | plainify | htmlUnescape -}}
+    {{- if $my_page.Truncated -}}
+      {{- $my_caption = printf "%s..." $my_caption -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $my_src -}}
+  {{- else -}}
+    {{- if eq (.Get "size") "big" -}}
+      {{- $my_src = $my_page.Params.cover.image -}}
+    {{- else -}}
+      {{- $my_src = or $my_page.Params.cover.small $my_page.Params.cover.image -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<article class="post-entry">{{ if $my_src }}{{ if eq (.Get "size") "big" }}
   <figure class="entry-cover">
-    <img loading="lazy" src="{{ . }}">
-  </figure>{{ end }}{{ with (.Get "title") }}
+    <img loading="lazy" src="{{ $my_src }}">
+  </figure>{{ else }}
+  <section style="display: inline-block; vertical-align: middle; width: 25%; padding-right: var(--gap);">
+    <img loading="lazy" src="{{ $my_src }}" style="border-radius: var(--radius);">
+  </section>
+  <section style="display: inline-block; vertical-align: middle; width: 70%;">{{ end }}{{ end }}{{ with $my_title }}
   <header class="entry-header">
     <h2>
       {{ . }}
     </h2>
-  </header>{{ end }}{{ with (.Get "caption") }}
+  </header>{{ end }}{{ with $my_caption }}
   <section class="entry-content">{{ . | markdownify }}</section>{{ end }}
-  <a class="entry-link" href="{{ or (.Get "href") "#" }}"></a>
+  {{- if $my_src }}{{ if eq (.Get "size") "big" }}{{ else }}
+  </section>{{ end }}{{ end }}
+  <a class="entry-link" href="{{ $my_href }}"></a>
 </article>

@@ -5,6 +5,7 @@ authors: ["DT君"]
 tags: ["酷儿理论六讲"]
 cover:
   image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_banner.webp"
+  small: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_banner_small.webp"
 ---
 
 {{% quote_purple center="true" align="center" %}}
@@ -158,17 +159,17 @@ title="当代话语对性别进行解构的实例"
 
 {{% quit_post_content %}}
 
-{{< article_card_2 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_banner_small.webp"
+{{< article_card page="post/2019-05-12-six-lectures-intro.md"
 title="引言 · 反直觉、质疑与必要性"
 caption="理解规范的运作是改变的第一步。"
 >}}
 
-{{< article_card_2 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190316_banner_small.webp"
+{{< article_card src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190316_banner_small.webp"
 title="《暗柜认识论》节译：公理一 「人和人是不同的」"
 caption="或许我们当下最紧迫的任务已不再是性少数群体对大多数人的抗争，而是每一个独特的个体和剩下所有人的抗争。"
 >}}
 
-{{< article_card_2 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20170323_banner_small.webp"
+{{< article_card src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20170323_banner_small.webp"
 title="性少数群体九问"
 caption="最常问到的九个问题，回答在这里！"
 >}}

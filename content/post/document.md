@@ -612,22 +612,13 @@ _学生组织_`
 {{%/* /quit_post_content */%}}
 之间，否则行距太大很难看
 
-大图片：
-
 {{</* article_card
-src="图片地址(可选)"
-title="标题(可选)"
-caption="描述(可选,支持markdown语法)"
-href="链接地址(目前不work,仍在开发中)"
-*/>}}
-
-小图片：
-
-{{</* article_card_2
-src="图片地址(可选)"
-title="标题(可选)"
-caption="描述(可选,支持markdown语法)"
-href="链接地址(目前不work,仍在开发中)"
+src="图片地址(可选,若未指定并且设置了page则会自动抓取)"
+title="标题(可选,若未指定并且设置了page则会自动抓取)"
+caption="描述(可选,支持markdown语法,若未指定并且设置了page则会自动抓取)"
+size="big(大图片)或small(小图片),默认small"
+href="链接地址(仅当page未设置时有效)"
+page="链接到网站内部页面时,填写md源文件地址(例如post/xxx.md)"
 */>}}
 ~~~
 
@@ -637,6 +628,12 @@ href="链接地址(目前不work,仍在开发中)"
 {{%/* quit_post_content */%}}
 
 {{</* article_card
+title="GitHub"
+caption="Where the world builds software"
+href="https://github.com"
+*/>}}
+
+{{</* article_card
 title="第一讲 · 社会性别与性别的描述学"
 caption="二元社会性别的假定隐隐地保留了社会性别与生理性别是某种模拟关系的信念"
 */>}}
@@ -645,18 +642,36 @@ caption="二元社会性别的假定隐隐地保留了社会性别与生理性�
 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_banner.webp"
 title="第一讲 · 社会性别与性别的描述学"
 caption="二元社会性别的假定隐隐地保留了社会性别与生理性别是某种模拟关系的信念"
+size="big"
 */>}}
 
-{{</* article_card_2
+{{</* article_card
 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_banner_small.webp"
 title="第一讲 · 社会性别与性别的描述学"
 caption="二元社会性别的假定隐隐地保留了社会性别与生理性别是某种模拟关系的信念"
+*/>}}
+
+自动抓取示例：
+
+{{</* article_card
+page="post/2019-06-17-six-lectures-1.md"
+size="big"
+*/>}}
+
+{{</* article_card
+page="post/2019-06-17-six-lectures-1.md"
 */>}}
 
 {{%/* /quit_post_content */%}}
 ~~~
 
 {{% quit_post_content %}}
+
+{{< article_card
+title="GitHub"
+caption="Where the world builds software"
+href="https://github.com"
+>}}
 
 {{< article_card
 title="第一讲 · 社会性别与性别的描述学"
@@ -667,12 +682,24 @@ caption="二元社会性别的假定隐隐地保留了社会性别与生理性�
 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_banner.webp"
 title="第一讲 · 社会性别与性别的描述学"
 caption="二元社会性别的假定隐隐地保留了社会性别与生理性别是某种模拟关系的信念"
+size="big"
 >}}
 
-{{< article_card_2
+{{< article_card
 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190512_banner_small.webp"
 title="第一讲 · 社会性别与性别的描述学"
 caption="二元社会性别的假定隐隐地保留了社会性别与生理性别是某种模拟关系的信念"
+>}}
+
+自动抓取示例：
+
+{{< article_card
+page="post/2019-06-17-six-lectures-1.md"
+size="big"
+>}}
+
+{{< article_card
+page="post/2019-06-17-six-lectures-1.md"
 >}}
 
 {{% /quit_post_content %}}
@@ -848,7 +875,52 @@ height2="686"
 dur="10s"
 >}}
 
-## 插入目录
+## 折叠的内容 (Hugo 内置)
+
+### 语法
+
+~~~
+{{%/* collapse
+summary="标题,支持markdown语法"
+openByDefault=初始时是否打开,默认为false(注意没有双引号!)
+*/%}}
+内容,支持markdown语法
+{{%/* /collapse */%}}
+~~~
+
+### 例子
+
+~~~
+{{%/* collapse summary="标题,支持 **markdown** *语法*" */%}}
+内容,支持markdown语法 **内容,支持markdown语法** *内容,支持markdown语法* 内容,支持markdown语法
+
+内容,支持markdown语法 **内容,支持markdown语法** *内容,支持markdown语法* 内容,支持markdown语法
+
+{{%/* collapse summary="我是嵌套" */%}}
+内容,支持markdown语法 **内容,支持markdown语法** *内容,支持markdown语法* 内容,支持markdown语法
+{{%/* /collapse */%}}
+{{%/* /collapse */%}}
+
+{{%/* collapse summary="标题,支持 **markdown** *语法*" openByDefault=true */%}}
+内容,支持markdown语法 **内容,支持markdown语法** *内容,支持markdown语法* 内容,支持markdown语法
+{{%/* /collapse */%}}
+~~~
+
+{{% collapse summary="标题,支持 **markdown** *语法*" %}}
+内容,支持markdown语法 **内容,支持markdown语法** *内容,支持markdown语法* 内容,支持markdown语法
+
+内容,支持markdown语法 **内容,支持markdown语法** *内容,支持markdown语法* 内容,支持markdown语法
+
+{{% collapse summary="我是嵌套" %}}
+内容,支持markdown语法 **内容,支持markdown语法** *内容,支持markdown语法* 内容,支持markdown语法
+{{% /collapse %}}
+{{% /collapse %}}
+
+{{% collapse summary="标题,支持 **markdown** *语法*" openByDefault=true %}}
+内容,支持markdown语法 **内容,支持markdown语法** *内容,支持markdown语法* 内容,支持markdown语法
+{{% /collapse %}}
+
+## 插入目录 (过时)
 
 ~~~
 {{</* toc */>}}
@@ -882,6 +954,7 @@ draft: 可选，false或true，表示是否草稿，草稿文章仅在本地预�
 authors: 可选，格式 ["作者1", "作者2", ……]
 cover:
   image: "封面图片地址" (可选，若指定则在文章最前面以及文章列表中显示封面图片，若不指定，请将 cover 和 image 都删掉)
+  small: "封面小图片地址" (可选)
 ShowToc: 可选，false或true，表示是否显示目录，默认false
 tags: 可选，格式 ["标签1", "标签2", ……]
 ---
