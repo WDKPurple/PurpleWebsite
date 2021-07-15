@@ -2,6 +2,7 @@
 {{- $my_title := .Get "title" -}}
 {{- $my_caption := .Get "caption" -}}
 {{- $my_src := .Get "src" -}}
+{{- $my_height := .Get "height" -}}
 {{- if .Get "page" -}}
   {{- $my_page := .Page.GetPage (.Get "page") -}}
   {{- $my_href = $my_page.Permalink | safeHTMLAttr -}}
@@ -17,17 +18,24 @@
   {{- else -}}
     {{- if eq (.Get "size") "big" -}}
       {{- $my_src = $my_page.Params.cover.image -}}
+      {{- $my_height = or $my_height $my_page.Params.cover.height -}}
     {{- else -}}
       {{- $my_src = or $my_page.Params.cover.small $my_page.Params.cover.image -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
 <article class="post-entry">{{ if $my_src }}{{ if eq (.Get "size") "big" }}
-  <figure class="entry-cover">
-    <img loading="lazy" src="{{ $my_src }}">
+  <figure class="entry-cover">{{ with $my_height }}
+  <section style="position: relative; width: 100%; padding-top: {{ . }}">
+  <section style="position: absolute; top: 0; left: 0; bottom: 0; right: 0;">{{ end }}
+    <img loading="lazy" src="{{ $my_src }}"{{ if $my_height }} style="height: 100%; object-fit: cover;"{{ end }}>{{ if $my_height }}
+  </section></section>{{ end }}
   </figure>{{ else }}
   <section style="display: inline-block; vertical-align: middle; width: 25%; padding-right: var(--gap);">
-    <img loading="lazy" src="{{ $my_src }}" style="border-radius: var(--radius);">
+  <section style="position: relative; width: 100%; padding-top: 100%">
+  <section style="position: absolute; top: 0; left: 0; bottom: 0; right: 0;">
+    <img loading="lazy" src="{{ $my_src }}" style="border-radius: var(--radius); height: 100%; object-fit: cover;">
+  </section></section>
   </section>
   <section style="display: inline-block; vertical-align: middle; width: 70%;">{{ end }}{{ end }}{{ with $my_title }}
   <header class="entry-header">

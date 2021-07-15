@@ -1,7 +1,10 @@
 {{- with .cxt}} {{/* Apply proper context from dict */}}
 {{- if (and .Params.cover.image (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
-<figure class="entry-cover">
+{{- $my_height := and $.IsHome .Params.cover.height }}
+<figure class="entry-cover">{{ with $my_height }}
+<section style="position: relative; width: 100%; padding-top: {{ . }}">
+<section style="position: absolute; top: 0; left: 0; bottom: 0; right: 0;">{{ end }}
     {{- $addLink := (and .Site.Params.cover.linkFullImages (not $.IsHome)) }}
     {{- $cover := (.Page.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
     {{- if $cover -}}{{/* i.e it is present in page bundle */}}
@@ -16,20 +19,21 @@
                         {{ printf "%s %s" (($cover.Resize (printf "%sx" $size)).Permalink) (printf "%sw ," $size) -}}
                         {{ end }}
                     {{- end -}}{{$cover.Permalink }} {{printf "%dw" ($cover.Width)}}"
-            sizes="(min-width: 768px) 720px, 100vw" src="{{ $cover.Permalink }}" alt="{{ $alt }}" />
+            sizes="(min-width: 768px) 720px, 100vw" src="{{ $cover.Permalink }}" alt="{{ $alt }}"{{ if $my_height }} style="height: 100%; object-fit: cover;"{{ end }} />
         {{- else }}{{/* Unprocessable image or responsive images disabled */}}
-        <img loading="lazy" src="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" alt="{{ $alt }}">
+        <img loading="lazy" src="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" alt="{{ $alt }}"{{ if $my_height }} style="height: 100%; object-fit: cover;"{{ end }}>
         {{- end }}
     {{- else }}{{/* For absolute urls and external links, no img processing here */}}
         {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
-            <img loading="lazy" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+            <img loading="lazy" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}"{{ if $my_height }} style="height: 100%; object-fit: cover;"{{ end }}>
     {{- end }}
     {{- if $addLink }}</a>{{ end -}}
     {{/*  Display Caption  */}}
     {{- if not $.IsHome }}
         {{ with .Params.cover.caption }}<p>{{ . | markdownify }}</p>{{- end }}
-    {{- end }}
+    {{- end }}{{ if $my_height }}
+</section></section>{{ end }}
 </figure>
 {{- end }}{{/* End image */}}
 {{- end -}}{{/* End context */ -}}

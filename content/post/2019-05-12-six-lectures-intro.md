@@ -70,7 +70,7 @@ title="他山之石 |《直人思维》"
 caption="「女同性恋不是女人」"
 >}}
 
-{{< article_card src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20170402_banner_small.webp"
+{{< article_card page="post/2017-04-02.md"
 title="马克思主义对待同性恋是什么态度？"
 caption="对待女权和性少数群体解放运动的态度，是试探真假马克思主义的一个标志。"
 >}}

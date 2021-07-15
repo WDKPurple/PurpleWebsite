@@ -619,6 +619,7 @@ caption="描述(可选,支持markdown语法,若未指定并且设置了page则�
 size="big(大图片)或small(小图片),默认small"
 href="链接地址(仅当page未设置时有效)"
 page="链接到网站内部页面时,填写md源文件地址(例如post/xxx.md)"
+height="强制指定封面图片的高度为宽度的一定比例，例如55%" (可选,仅在size为big时有效,会自动从page中抓取)
 */>}}
 ~~~
 
@@ -628,6 +629,7 @@ page="链接到网站内部页面时,填写md源文件地址(例如post/xxx.md)"
 {{%/* quit_post_content */%}}
 
 {{</* article_card
+src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
 title="GitHub"
 caption="Where the world builds software"
 href="https://github.com"
@@ -668,6 +670,7 @@ page="post/2019-06-17-six-lectures-1.md"
 {{% quit_post_content %}}
 
 {{< article_card
+src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
 title="GitHub"
 caption="Where the world builds software"
 href="https://github.com"
@@ -955,6 +958,8 @@ authors: 可选，格式 ["作者1", "作者2", ……]
 cover:
   image: "封面图片地址" (可选，若指定则在文章最前面以及文章列表中显示封面图片，若不指定，请将 cover 和 image 都删掉)
   small: "封面小图片地址" (可选)
+  hidden: true或false，若为true则仅在文章列表中显示封面图片，在文章最前面不显示 (可选，默认false)
+  height: "强制指定封面图片在文章列表中显示的高度为宽度的一定比例，例如55%" (可选)
 ShowToc: 可选，false或true，表示是否显示目录，默认false
 tags: 可选，格式 ["标签1", "标签2", ……]
 ---

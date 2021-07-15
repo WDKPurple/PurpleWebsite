@@ -3,6 +3,11 @@ title: "紫色校园日 | 我们准备了八个问题和九块广告牌"
 date: 2020-10-15
 authors: ["狐狸先生"]
 tags: ["紫色校园日"]
+cover:
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20201015_009.webp"
+  small: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20201015_009.webp"
+  hidden: true
+  height: "55%"
 ---
 
 ## 想知道答案？
