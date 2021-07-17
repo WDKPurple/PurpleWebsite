@@ -65,7 +65,7 @@ title="20世纪70年代美国的同性恋平权运动"
 
 {{% quit_post_content %}}
 
-{{< article_card src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20160524_banner_small.webp"
+{{< article_card page="post/2016-05-24-the-straight-mind.md"
 title="他山之石 |《直人思维》"
 caption="「女同性恋不是女人」"
 >}}
@@ -75,9 +75,11 @@ title="马克思主义对待同性恋是什么态度？"
 caption="对待女权和性少数群体解放运动的态度，是试探真假马克思主义的一个标志。"
 >}}
 
-{{< article_card src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20170323_banner_small.webp"
+{{< article_card page="post/2017-03-23-9-questions-on-lgbt.md"
 title="性少数群体九问"
 caption="最常问到的九个问题，回答在这里！"
 >}}
 
 {{% /quit_post_content %}}
+
+{{< purple_logo_center >}}

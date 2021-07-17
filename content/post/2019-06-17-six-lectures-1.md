@@ -164,12 +164,12 @@ title="引言 · 反直觉、质疑与必要性"
 caption="理解规范的运作是改变的第一步。"
 >}}
 
-{{< article_card src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190316_banner_small.webp"
+{{< article_card page="post/2019-03-16-epistemology-of-the-closet.md"
 title="《暗柜认识论》节译：公理一 「人和人是不同的」"
 caption="或许我们当下最紧迫的任务已不再是性少数群体对大多数人的抗争，而是每一个独特的个体和剩下所有人的抗争。"
 >}}
 
-{{< article_card src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20170323_banner_small.webp"
+{{< article_card page="post/2017-03-23-9-questions-on-lgbt.md"
 title="性少数群体九问"
 caption="最常问到的九个问题，回答在这里！"
 >}}
