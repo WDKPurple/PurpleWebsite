@@ -175,3 +175,5 @@ caption="最常问到的九个问题，回答在这里！"
 >}}
 
 {{% /quit_post_content %}}
+
+{{< purple_logo_center >}}
