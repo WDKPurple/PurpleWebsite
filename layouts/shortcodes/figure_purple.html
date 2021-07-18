@@ -1,13 +1,34 @@
+{{- $my_src := split (.Get "src") ";" -}}
+{{- $my_width := mul (len $my_src) 100.0 -}}
 <p>
 	<section style="text-align: center;">
-		<section style="display: inline-block; width: 95%; border: 2px solid transparent; padding: 0px; background-color: var(--code-bg); box-shadow: rgb(218, 218, 218) 4px 4px 10px;">
+		<section style="display: inline-block; width: 95%; border: 2px solid transparent; padding: 0px; background-color: var(--code-bg); box-shadow: rgb(218, 218, 218) 4px 4px 10px;">{{ if gt (len $my_src) 1 }}
+			{{- $my_width_2 := div 100.0 (len $my_src) -}}
+			{{- $my_height := (.Get "aspect") -}}
+			<section style="max-width: 100%; vertical-align: middle; display: inline-block; width: 100%; overflow-x: auto;">
+				<div style="overflow: hidden; width: {{ $my_width }}%; text-align: left; white-space: nowrap;">{{- range $my_src -}}
+				{{- if $my_height -}}
+				<section style="display: inline-block; vertical-align: middle; width: {{ printf "%f" $my_width_2 }}%;">
+					<section style="position: relative; width: 100%; padding-top: {{ $my_height }}">
+						<section style="position: absolute; top: 0; left: 0; bottom: 0; right: 0;">
+							<img loading="lazy" src="{{ . }}" style="width: 100%; height: 100%; border-radius: 0px; object-fit: contain;">
+						</section>
+					</section>
+				</section>
+				{{- else -}}
+				<img loading="lazy" src="{{ . }}"
+					style="display: inline-block; vertical-align: middle; width: {{ printf "%f" $my_width_2 }}%; border-radius: 0px;">
+				{{- end -}}
+				{{- end -}}
+				</div>
+			</section>{{ else }}
 			<section style="max-width: 100%; vertical-align: middle; display: inline-block; width: 100%;">
 				<img loading="lazy" src="{{ .Get "src" }}"
 					{{- if or (.Get "alt") (.Get "caption") }}
 					alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify | plainify }}{{ end }}"
 					{{- end -}}
 					style="vertical-align: middle; max-width: 100%; width: 100%; border-radius: 4px 4px 0px 0px;">
-			</section>
+			</section>{{ end }}
 			<section style="display: inline-block; width: 100%; border-width: 0px 0px 0px 10px; border-style: solid; border-color: var(--content-strong-purple); padding: 10px;">
 				<section style="margin: 5px 0%; position: static; text-align: left; padding: 0px 10px; font-size: 90%;">{{ with (.Get "title") }}
 					<strong>{{ . }}</strong>{{ end }}{{ with (.Get "caption") }}

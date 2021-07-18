@@ -507,13 +507,15 @@ _学生组织_`
 
 ### 自定义 figure 模板 (以及模板中使用多行文本的方法)
 
-总是居中并且占满屏幕宽度
+- 总是居中并且占满屏幕宽度
+- 可以指定多个图片，水平滚屏
 
 #### 语法
 
 ```
 {{</* figure_purple
-src="图片地址"
+src="图片地址" (可以指定多个图片水平滚屏,用";"分隔)
+aspect="可选，在多个图片水平滚屏时强制指定高度为宽度一定百分比，例如120%，若不指定则图片高度参差不齐"
 title="标题(可选)"
 caption="描述(可选,支持markdown语法)"
 */>}}
@@ -539,6 +541,17 @@ caption=`多行文本示例：
 
 _学生组织_`
 */>}}
+
+{{</* figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_001.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_002.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_003.webp"
+title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞（Louis Althusser）、朱迪斯·巴特勒（Judith Butler）"
+*/>}}
+
+{{</* figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_001.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_002.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_003.webp"
+aspect="112%"
+title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞（Louis Althusser）、朱迪斯·巴特勒（Judith Butler）"
+*/>}}
 ~~~
 
 {{< figure_purple
@@ -557,6 +570,17 @@ caption=`多行文本示例：
 位于~~五棵松~~五道口的
 
 _学生组织_`
+>}}
+
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_001.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_002.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_003.webp"
+title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞（Louis Althusser）、朱迪斯·巴特勒（Judith Butler）"
+>}}
+
+{{< figure_purple
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_001.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_002.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_003.webp"
+aspect="112%"
+title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞（Louis Althusser）、朱迪斯·巴特勒（Judith Butler）"
 >}}
 
 ## 参考文献
