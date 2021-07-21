@@ -115,14 +115,14 @@ between paragraphs.
 ### 居中
 
 ```
-<p align="center">
+{{%/* center */%}}
 Center
-</p>
+{{%/* /center */%}}
 ```
 
-<p align="center">
+{{% center %}}
 Center
-</p>
+{{% /center %}}
 
 ## 引用
 
@@ -514,6 +514,7 @@ _学生组织_`
 
 ```
 {{</* figure_purple
+prefix="图片地址前缀" (可选)
 src="图片地址" (可以指定多个图片水平滚屏,用";"分隔)
 aspect="可选，在多个图片水平滚屏时强制指定高度为宽度一定百分比，例如120%，若不指定则图片高度参差不齐"
 title="标题(可选)"
@@ -552,6 +553,15 @@ src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six
 aspect="112%"
 title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞（Louis Althusser）、朱迪斯·巴特勒（Judith Butler）"
 */>}}
+
+使用前缀可以减小插入多个图片的工作量：
+
+{{</* figure_purple
+prefix="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_00"
+src="1.webp;2.webp;3.webp"
+aspect="112%"
+title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞（Louis Althusser）、朱迪斯·巴特勒（Judith Butler）"
+*/>}}
 ~~~
 
 {{< figure_purple
@@ -579,6 +589,15 @@ title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞�
 
 {{< figure_purple
 src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_001.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_002.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_003.webp"
+aspect="112%"
+title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞（Louis Althusser）、朱迪斯·巴特勒（Judith Butler）"
+>}}
+
+使用前缀可以减小插入多个图片的工作量：
+
+{{< figure_purple
+prefix="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_00"
+src="1.webp;2.webp;3.webp"
 aspect="112%"
 title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞（Louis Althusser）、朱迪斯·巴特勒（Judith Butler）"
 >}}

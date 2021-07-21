@@ -22,7 +22,8 @@ cover:
 我们援引了朱迪斯·巴特勒的理论来说明，性别主体不是铭刻在生理机体上的东西，而是反过来的：**要先有一套关于性别的规范规定哪些实践是「与性相关的」，个别的机体执行这些实践，才把自己生产为某种性别主体。**哪怕仅仅是在头脑中形成一个「我是某某性别的人」「我是某某性倾向的人」的定义（大脑中的活动也是某种实践活动），也需要预先了解到关于某某性别或者某某性倾向的知识才行，而这种知识无疑都是关于性别的规范的一部分。这个视角毫无疑问是颠覆性的：它把主体的生产归结为某种外在的结构（例如话语的规范）运作的结果，而不是原因。这个主体理论直接来自于精神分析学家雅克·拉康**[1]**和马克思主义哲学家路易·阿尔都塞**[2]**。关于这三位学者的思想之间的传承关系，已经有过足够多的论述了**[3]**。我们基本上援引阿尔都塞**[4]**，在适当的时候简单解释他与拉康的平行关系。
 
 {{< figure_purple
-src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_001.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_002.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_003.webp"
+prefix="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2019-09-15-six-lectures-3/20190915_00"
+src="1.webp;2.webp;3.webp"
 aspect="112%"
 title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞（Louis Althusser）、朱迪斯·巴特勒（Judith Butler）" >}}
 

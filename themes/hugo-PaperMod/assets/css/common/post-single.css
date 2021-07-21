@@ -141,12 +141,22 @@
     min-width: 80px;
     padding: 12px 8px;
     line-height: 1.5;
-    border-bottom: 1px solid var(--border);
+    /* border-bottom: 1px solid var(--border); */
 }
 
 .post-content table th {
     font-size: 14px;
     text-align: start;
+    border-width: 1px;
+    border-color: rgb(62, 62, 62) var(--theme) rgb(62, 62, 62) rgb(62, 62, 62);
+    border-style: none solid none none;
+    background-color: var(--th-purple-bg);
+    color: var(--theme);
+}
+
+.post-content table tr:nth-of-type(odd) td {
+    border-style: none;
+    background-color: var(--td-purple-bg);
 }
 
 .post-content table:not(.highlighttable) td code:only-child {

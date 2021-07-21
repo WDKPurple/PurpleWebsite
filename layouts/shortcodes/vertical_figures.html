@@ -1,0 +1,8 @@
+{{- $my_prefix := or (.Get "prefix") "" -}}
+{{- $my_suffix := or (.Get "suffix") "" -}}
+{{- $my_src := split (.Get "src") ";" -}}
+{{- range $my_src -}}
+<div style="text-align: center; width: 100%; vertical-align: middle; display: inline-block; line-height: 0;">
+	<img loading="lazy" src="{{ printf "%s%s%s" $my_prefix . $my_suffix }}" style="vertical-align: middle; width: 100%; border-radius: 0px;">
+</div>
+{{- end -}}

@@ -1,3 +1,5 @@
+{{- $my_prefix := or (.Get "prefix") "" -}}
+{{- $my_suffix := or (.Get "suffix") "" -}}
 {{- $my_src := split (.Get "src") ";" -}}
 {{- $my_width := mul (len $my_src) 100.0 -}}
 <p>
@@ -11,19 +13,19 @@
 				<section style="display: inline-block; vertical-align: middle; width: {{ printf "%f" $my_width_2 }}%;">
 					<section style="position: relative; width: 100%; padding-top: {{ $my_height }}">
 						<section style="position: absolute; top: 0; left: 0; bottom: 0; right: 0;">
-							<img loading="lazy" src="{{ . }}" style="width: 100%; height: 100%; border-radius: 0px; object-fit: contain;">
+							<img loading="lazy" src="{{ printf "%s%s%s" $my_prefix . $my_suffix }}" style="width: 100%; height: 100%; border-radius: 0px; object-fit: contain;">
 						</section>
 					</section>
 				</section>
 				{{- else -}}
-				<img loading="lazy" src="{{ . }}"
+				<img loading="lazy" src="{{ printf "%s%s%s" $my_prefix . $my_suffix }}"
 					style="display: inline-block; vertical-align: middle; width: {{ printf "%f" $my_width_2 }}%; border-radius: 0px;">
 				{{- end -}}
 				{{- end -}}
 				</div>
 			</section>{{ else }}
 			<section style="max-width: 100%; vertical-align: middle; display: inline-block; width: 100%;">
-				<img loading="lazy" src="{{ .Get "src" }}"
+				<img loading="lazy" src="{{ printf "%s%s%s" $my_prefix (.Get "src") $my_suffix }}"
 					{{- if or (.Get "alt") (.Get "caption") }}
 					alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify | plainify }}{{ end }}"
 					{{- end -}}
@@ -31,7 +33,7 @@
 			</section>{{ end }}
 			<section style="display: inline-block; width: 100%; border-width: 0px 0px 0px 10px; border-style: solid; border-color: var(--content-strong-purple); padding: 10px;">
 				<section style="margin: 5px 0%; position: static; text-align: left; padding: 0px 10px; font-size: 90%;">{{ with (.Get "title") }}
-					<strong>{{ . }}</strong>{{ end }}{{ with (.Get "caption") }}
+					<strong>{{ . | markdownify }}</strong>{{ end }}{{ with (.Get "caption") }}
 					<p>{{ . | markdownify }}</p>{{ end }}
 				</section>
 			</section>
