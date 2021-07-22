@@ -1,8 +1,13 @@
 {{- $my_id := .Get "id" -}}
 {{- if $my_id -}}
 {{- else -}}
-	{{- $.Page.Scratch.Set "my_bibitem_id" (add (or ($.Page.Scratch.Get "my_bibitem_id") 0) 1) -}}
-	{{- $my_id = printf "[%d]" ($.Page.Scratch.Get "my_bibitem_id") -}}
+	{{- if (.Get "reset") -}}
+		{{- $my_id = int (.Get "reset") -}}
+	{{- else -}}
+		{{- $my_id = add (or ($.Page.Scratch.Get "my_bibitem_id") 0) 1 -}}
+	{{- end -}}
+	{{- $.Page.Scratch.Set "my_bibitem_id" $my_id -}}
+	{{- $my_id = printf "[%d]" $my_id -}}
 {{- end -}}
 <section style="position: static; box-sizing: border-box;">
 	<section style="display: inline-block; vertical-align: top; width: 8%; box-sizing: border-box; text-align: right; white-space: nowrap;">

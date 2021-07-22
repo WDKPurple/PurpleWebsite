@@ -4,7 +4,10 @@ date: 2016-05-24
 authors: ["莫妮卡•威蒂格"]
 tags: ["他山之石"]
 cover:
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20160524_000.webp"
   small: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20160524_banner_small.webp"
+  height: "55%"
+  hidden: true
 ---
 
 > 这一期的他山之石，小编们为大家翻译了莫妮卡·威蒂格的演讲《直人思维》。限于水平，错漏在所难免，请大家不吝指正。
