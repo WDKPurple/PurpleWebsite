@@ -4,8 +4,7 @@ date: 2021-01-31
 authors: ["翰墨"]
 tags: ["他山之石"]
 cover:
-  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210723204840.webp"
-  small: ""
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-01-31/20210131_001.webp"
 ---
 
 ### 编者按

@@ -4,8 +4,9 @@ date: 2021-02-19
 authors: ["竹見祐亮"]
 tags: ["来稿"]
 cover:
-  image: ""
-  small: ""
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-02-19/20210219_001.webp"
+  height: "55%"
+  hidden: true
 ---
 
 <small>注：本文不涉及任何政治立场，作者坚决拥护「一个中国」。全部专用名词以引号标注。</small>
@@ -46,7 +47,7 @@ cover:
 
 <br>
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210723190829.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-02-19/20210219_001.webp"
 title="《欲望性公民》和台大附近有名的女书店"
 
 >}}
@@ -71,7 +72,7 @@ title="《欲望性公民》和台大附近有名的女书店"
 
 一语惊醒梦中人——在这个社会彩虹也并不明朗。我只是在象牙塔里年轻人的「同温层」中罢了。
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20210723193051.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-02-19/20210219_002.webp"
 title="自由的台大，处处可见彩虹"
 
 >}}
@@ -80,7 +81,7 @@ title="自由的台大，处处可见彩虹"
 
 也就是在夜市的街口，有几个学生模样的年轻人，戴着彩虹飘带在发宣传品——
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210723193549.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-02-19/20210219_003.webp"
 title="台湾大学生普通的一天（笑）"
 
 >}}
@@ -97,7 +98,7 @@ title="台湾大学生普通的一天（笑）"
 
 「性平」即性别平等，「两好三坏」是支持同性婚姻的「投票」，「爱家联盟」是反对同性婚姻的组织。
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210723193759.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-02-19/20210219_004.webp"
 
 title="LGBT Pride和「平权公投」宣传品"
 
@@ -107,7 +108,7 @@ title="LGBT Pride和「平权公投」宣传品"
 
 不过我拍这面「LOVE FOR ALL」橱窗并不是想给H&M做广告，是想说彩虹元素也出现在闹市商区的街头巷尾，还有这个系列穿上很适合参加LGBT Pride。
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20210723194332.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-02-19/20210219_005.webp"
 title="「公投」期间，H&M的「LOVE FOR ALL」系列"
 
 >}}
@@ -122,17 +123,17 @@ title="「公投」期间，H&M的「LOVE FOR ALL」系列"
 
 可见彩虹团体为了争取「婚姻平权」，已经有计划地努力很多年了。
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210723194823.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-02-19/20210219_006.webp"
 title="LGBT Pride路演的Couple，小姐姐颜值很可以"
 
 >}}
 
 
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210723195007.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-02-19/20210219_007.webp"
 title="LGBT Pride街头盛况，起点在台大医院旁边">}}
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210723195432.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-02-19/20210219_008.webp"
 title="LGBT Pride也有不少外国人参加">}}
 
 # *04*  后记
@@ -155,7 +156,7 @@ title="LGBT Pride也有不少外国人参加">}}
 
 彩虹团体和年轻人理想中的「婚姻平权」，和一个社会普遍价值和意识形态之间的冲突——西方宗教信仰、中国传统道德观，以及其他复杂的成分。「欲望性公民」，在厘清这些问题之前，恐怕还过于理想。
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210723195605.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-02-19/20210219_009.webp"
 title="台大附近教堂耶诞盛装。「公投」期间，「爱家联盟」于此集结">}}
 
 最后的最后，请允许我放上最爱的《Carol》台译本结尾的一句话。
