@@ -130,3 +130,5 @@ caption="图源：环球人物2020年13期《申纪兰，开完66年人代会》
 >}}
 
 {{< purple_logo_center >}}
+
+{{< figure src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/purple_120_bpm.webp" align="center">}}
