@@ -1,7 +1,7 @@
 ---
 title: "他山之石 | 性、性别与性存在"
 date: 2020-05-04
-authors: ["purple宣传组"]
+authors: ["Eve Kosofsky Sedgwick", "王淼", "鱼大嗷"]
 tags: ["他山之石"]
 cover:
   image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20200504a_01.webp"
