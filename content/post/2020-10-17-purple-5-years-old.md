@@ -4,7 +4,7 @@ date: 2020-10-17
 authors: [""]
 tags: ["来稿"]
 cover:
-  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724192756.webp"
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-10-17/20201017_001.webp"
   small: ""
 
 ---
@@ -27,7 +27,7 @@ cover:
 
 <br>
 
-![e71c31afe3a949355bd105fe9b5d8169-sz_1603224](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724192925.webp)
+![e71c31afe3a949355bd105fe9b5d8169-sz_1603224](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-10-17/20201017_002.webp)
 
 <br>
 

@@ -4,18 +4,18 @@ date: 2020-06-10
 authors: ["老狐狸 Teddy"]
 tags: ["骄傲月"]
 cover:
-  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725192613.webp"
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_001.webp"
   small: ""
 
 ---
 
-![69e32c6e5019aa1ac6e975edd908f039-sz_1228040](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725192738.webp)
+![69e32c6e5019aa1ac6e975edd908f039-sz_1228040](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_002.webp)
 
 **「真正的旗帜绝非设计之产物，它必是从人的灵魂中撕裂而出的。」**
 
 <br>
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725193054.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_003.webp"
 title="政治活动家，设计师，变装皇后，彩虹旗之父，吉尔伯特·贝克 ">}}
 
 <br>
@@ -26,7 +26,7 @@ title="政治活动家，设计师，变装皇后，彩虹旗之父，吉尔伯�
 
 
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725202946.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725203000.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725203106.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_004.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_005.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_006.webp"
 aspect="100%"
 title="卡斯特罗街，彩虹随处可见。"
 caption="左右滑动查看更多→">}}
@@ -37,7 +37,7 @@ caption="左右滑动查看更多→">}}
 
 <br>
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725205940.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_007.webp"
 title="哈维·米尔克"
 
 caption="图片来自1984年的纪录片《哈维·米尔克的时代》，2008年的传记电影《米尔克》也讲述了他的故事。">}}
@@ -48,7 +48,7 @@ caption="图片来自1984年的纪录片《哈维·米尔克的时代》，2008�
 
 <br>
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/6dd42776e2f9a7ea4f583c4535005b77-sz_108531.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_008.webp"
 title="吉尔伯特的回忆录 ">}}
 
 <br>
@@ -59,7 +59,7 @@ title="吉尔伯特的回忆录 ">}}
 
 
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725212101.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_009.webp"
 title="集中营狱服上用于区分身份的倒三角 "
 
 caption="红色：政治犯；绿色：普通罪犯；蓝色：外来移民；紫色：耶和华见证人；粉色：性犯罪，包括同性恋及双性恋男性；黑色：反社会人士，包括女同和性工作者。字母表示国籍，如P表示波兰人，T代表捷克人。倒三角叠加黄色正三角构成一颗大卫星：犹太人，包括犹太教徒和有犹太血统的人。如粉红三角形与黄色三角形相叠构成一颗大卫星：同性恋的犹太人。黑色三角形或空心倒转黑色三角形放置在黄色三角形上相叠：种族通婚的雅利安人，即“种族败坏者”。这些标记可以随意组合，犯人通常至少有两个标记，但也可能拥有超过六个。">}}
@@ -70,7 +70,7 @@ caption="红色：政治犯；绿色：普通罪犯；蓝色：外来移民；�
 
 <br>
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725212448.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_010.webp"
 title="吉尔伯特亲手缝制彩虹旗">}}
 
 <br>
@@ -81,7 +81,7 @@ title="吉尔伯特亲手缝制彩虹旗">}}
 
 
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725212543.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_011.webp"
 title="吉尔伯特和志愿者在1978年升起的第一面八色彩虹星条旗。">}}
 
 <br>
@@ -94,7 +94,7 @@ title="吉尔伯特和志愿者在1978年升起的第一面八色彩虹星条旗
 
 <br>
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725212842.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725212902.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725212923.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_012.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_013.webp;https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_014.webp"
 aspect="110%"
 title="左右滑动查看更多→"
 caption="1.纽约市第一大街上一英里长的彩虹旗。<br>2.吉尔伯特·贝克穿着白色亮片连衣裙（右）与游行队伍一起举着彩虹旗经过圣帕特里克大教堂。<br>3.当时的志愿者招募广告">}}
@@ -105,7 +105,7 @@ caption="1.纽约市第一大街上一英里长的彩虹旗。<br>2.吉尔伯特
 
 <br>
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725213415.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_015.webp"
 title="“吉尔伯特，你的彩虹拯救了我，谢谢你!”">}}
 
 <br>
@@ -114,15 +114,15 @@ title="“吉尔伯特，你的彩虹拯救了我，谢谢你!”">}}
 
 <br>
 
-![1e0f08718af4bb01ab5bced435277ef4-sz_438392](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725213537.gif)
+![1e0f08718af4bb01ab5bced435277ef4-sz_438392](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_016.gif)
 
-![3cad0d079ebb0b6845eb028bd918d5ad-sz_242635](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725213556.webp)
+![3cad0d079ebb0b6845eb028bd918d5ad-sz_242635](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_017.webp)
 
 
 
-![](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/5f940e0fee5f7a2475a4804361f5cdf4-sz_318125.webp)
+![](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_018.webp)
 
-![2e09b482aa61b514444475587230350c-sz_368062](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725214035.webp)
+![2e09b482aa61b514444475587230350c-sz_368062](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_019.webp)
 
 <br>
 
@@ -130,9 +130,9 @@ title="“吉尔伯特，你的彩虹拯救了我，谢谢你!”">}}
 
 <br>
 
-![cfc9d1fa057d3f787be59bc427ece7b2-sz_9286926](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725214138.gif)
+![cfc9d1fa057d3f787be59bc427ece7b2-sz_9286926](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_020.gif)
 
-![8f12782d25b46bfa02a00a36ba693090-sz_54472](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725214155.gif)
+![8f12782d25b46bfa02a00a36ba693090-sz_54472](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_021.gif)
 
 <br>
 
@@ -140,7 +140,7 @@ title="“吉尔伯特，你的彩虹拯救了我，谢谢你!”">}}
 
 <br>
 
-![](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/9804a13706d8e17677f360bcc50b6003-sz_12158.webp)
+![](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_022.webp)
 
 <small>扫码加入创造彩虹的团队吧！</small>
 
@@ -150,7 +150,7 @@ title="“吉尔伯特，你的彩虹拯救了我，谢谢你!”">}}
 
 <br>
 
-![e65fc2e495f36fb97062c4e38bd31528-sz_174733](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210725215015.webp)
+![e65fc2e495f36fb97062c4e38bd31528-sz_174733](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_023.webp)
 
 <br>
 

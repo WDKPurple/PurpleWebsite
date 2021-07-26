@@ -5,3 +5,4 @@ wrangler.toml
 .DS_Store
 *.exe
 *.cmd
+*.pyc

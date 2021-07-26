@@ -4,7 +4,7 @@ date: 2020-11-20
 authors: ["姗姗"]
 tags: ["他山之石","学术组原创"]
 cover:
-  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724133956.webp"
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-11-20/20201120_001.webp"
   small: ""
 
 ---
@@ -17,7 +17,7 @@ cover:
 
 <br>
 
-![84f6648b047ebf4364b67f71ddc2f4c3-sz_102900](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724134520.webp)
+![84f6648b047ebf4364b67f71ddc2f4c3-sz_102900](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-11-20/20201120_002.webp)
 
 <br>
 
@@ -25,7 +25,7 @@ cover:
 
 <br>
 
-![1ceb1e7ad9446b64f5719312ecd80c6d-sz_582489](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724134856.webp)
+![1ceb1e7ad9446b64f5719312ecd80c6d-sz_582489](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-11-20/20201120_003.webp)
 
 <br>
 
@@ -35,7 +35,7 @@ cover:
 
 <br>
 
-![da74c02981baf82eae7c39ab61bd3feb-sz_36641](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724134807.webp)
+![da74c02981baf82eae7c39ab61bd3feb-sz_36641](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-11-20/20201120_004.webp)
 
 <br>
 

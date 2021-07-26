@@ -50,7 +50,7 @@ C’est la vie. 她的声音从远远地斜后方传来，并不明亮的音色�
 
 <br>
 
-![6fc64118c76213b66d7f9e46c147d858-sz_27065](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724140003.webp)
+![6fc64118c76213b66d7f9e46c147d858-sz_27065](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-11-10/20201110_001.webp)
 
 <br>
 
@@ -74,7 +74,7 @@ C’est la vie. 她的声音从远远地斜后方传来，并不明亮的音色�
 
 <br>
 
-![9c32c238a460fa0d1eb1f2b718e674d2-sz_379059](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724140059.webp)
+![9c32c238a460fa0d1eb1f2b718e674d2-sz_379059](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-11-10/20201110_002.webp)
 
 <br>
 
@@ -108,7 +108,7 @@ C’est la vie. 她的声音从远远地斜后方传来，并不明亮的音色�
 
 <br>
 
-![5658dff99aa5495482a921a66ed5b82c-sz_19368](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724140153.webp)
+![5658dff99aa5495482a921a66ed5b82c-sz_19368](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-11-10/20201110_003.webp)
 
 <br>
 
@@ -126,7 +126,7 @@ C’est la vie. 她的声音从远远地斜后方传来，并不明亮的音色�
 
 <br>
 
-![13249487da29852b8dcc5777d7c0db17-sz_43717](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724140436.webp)
+![13249487da29852b8dcc5777d7c0db17-sz_43717](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-11-10/20201110_004.webp)
 
 <br>
 
@@ -136,7 +136,7 @@ C’est la vie. 她的声音从远远地斜后方传来，并不明亮的音色�
 
 <br>
 
-![cde9ea68ea72d7beb247f2eae9399a52-sz_592956](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724140717.webp)
+![cde9ea68ea72d7beb247f2eae9399a52-sz_592956](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-11-10/20201110_005.webp)
 
 <br>
 
@@ -146,7 +146,7 @@ C’est la vie. 她的声音从远远地斜后方传来，并不明亮的音色�
 
 我们并肩坐在台阶上。那时已考完试，百无聊赖地，她在看小说，我在看操场上疯跑的人。阳光相当好，她突然侵身过来，轻轻吻了我的侧颊。而后缩回去，假装认真地继续盯着手机，实则脸红扑扑的，不敢看我。而最后的那次见面是教师节，我们已经明了了分离、结束与决断的意味。在众多同学中她走向我，拉住我。**我很听话，同她绕到校门口那棵大石楠树后。她依然是凑过来，软软地亲吻我的脸颊，又花费很多勇气似的，指指自己的脸。**我拉住她的手臂。外面是同学们聊天的声音。她是我取向意识的启蒙。
 
-![e1354d41debfbd22578fec4fde95e5be-sz_514551](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210724140757.webp)
+![e1354d41debfbd22578fec4fde95e5be-sz_514551](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-11-10/20201110_006.webp)
 
 <br>
 

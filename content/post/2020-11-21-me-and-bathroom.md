@@ -19,7 +19,7 @@ cover:
 
 <br>
 
-![](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20210724121317.webp)
+![](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2020-11-21/20201121_001.webp)
 
 <br>
 
@@ -35,7 +35,7 @@ cover:
 
 <br>
 
-![](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20210724124419.webp)
+![](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2020-11-21/20201121_002.webp)
 
 <br>
 
@@ -47,7 +47,7 @@ cover:
 
 <br>
 
-![](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20210724124628.webp)
+![](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2020-11-21/20201121_003.webp)
 
 <br>
 
