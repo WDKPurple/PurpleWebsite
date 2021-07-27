@@ -22,6 +22,11 @@ Available commands:
   batch-rename-mult <post_pattern> <dest_pattern>
                                        batch rename images in post files
 
+Example of dest_pattern: {date}/{date2}_%%03d
+  {date}                               the first 10 character of the file name
+  {date2}                              {date} with "-" removed
+  {name}                               the file name without extension
+
 Available options:
   --select-image <pattern>             select image by pattern
   --exclude-image <pattern>            exclude image by pattern
@@ -209,8 +214,15 @@ def rename_images(post_path, image_path, images, dry_run):
 						print repr(e)
 
 
-def get_rename_image_list_by_pattern(src_images, pattern, date_str):
+def get_rename_image_list_by_pattern(src_images, pattern, filename):
+	name_str = filename.replace("\\", "/")
+	idx = name_str.rfind("/")
+	name_str = name_str[idx+1:] if idx >= 0 else name_str
+	idx = name_str.rfind(".")
+	name_str = name_str[:idx] if idx >= 0 else name_str
+	date_str = name_str[:10]
 	date_str2 = date_str.replace("-", "")
+
 	images = []
 	index = 0
 	for image in src_images:
@@ -218,16 +230,12 @@ def get_rename_image_list_by_pattern(src_images, pattern, date_str):
 		idx = image.rfind(".")
 		ext = image[idx:] if idx >= 0 else ""
 		dest = (pattern % index) + ext
-		dest = dest.replace("{date}", date_str).replace("{date2}", date_str2)
+		dest = dest.replace("{date}", date_str).replace("{date2}", date_str2).replace("{name}", name_str)
 		images.append([image, dest])
 	return images
 
 
 def get_rename_image_list_in_one_post(pattern, select_image, exclude_image, select_index, exclude_index, filename):
-	date_str = filename.replace("\\", "/")
-	idx = date_str.rfind("/")
-	date_str = date_str[idx+1:] if idx >= 0 else date_str
-	date_str = date_str[:10]
 	src_images = []
 	def callback(userdata, line_number, index, image):
 		src_images.append(image)
@@ -237,7 +245,7 @@ def get_rename_image_list_in_one_post(pattern, select_image, exclude_image, sele
 	except Exception as e:
 		print "ERROR: Failed to open file '%s':" % filename
 		print repr(e)
-	return get_rename_image_list_by_pattern(src_images, pattern, date_str)
+	return get_rename_image_list_by_pattern(src_images, pattern, filename)
 
 
 def get_rename_image_list_in_posts(pattern, select_image, exclude_image, select_post, exclude_post, post_path):
