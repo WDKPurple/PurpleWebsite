@@ -38,3 +38,5 @@ cover:
 
 排版 / 老狐狸
 </div>
+
+{{< purple_logo_center >}}
