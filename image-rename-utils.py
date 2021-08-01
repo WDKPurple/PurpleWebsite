@@ -17,12 +17,12 @@ Available commands:
   search-image [<pattern>]             search images in all posts
   list-image <file>                    list unique images in a post file
   rename-image <old> <new>             rename an images
-  batch-rename <file> <dest_pattern>   batch rename images in a post file
+  batch-rename <file> [<dest_pattern>] batch rename images in a post file
                                        NOTE: dest_pattern is without extension
-  batch-rename-mult <post_pattern> <dest_pattern>
+  batch-rename-mult <post_pattern> [<dest_pattern>]
                                        batch rename images in post files
 
-Example of dest_pattern: {date}/{date2}_%%03d
+Example of dest_pattern: default is {date}/{date2}_%%03d
   {date}                               the first 10 character of the file name
   {date2}                              {date} with "-" removed
   {name}                               the file name without extension
@@ -360,17 +360,21 @@ def main():
 			usage()
 		rename_images(post_path, image_path, [[sys.argv[i-1], sys.argv[i]]], dry_run)
 	elif sys.argv[i] == "batch-rename":
-		i += 2
+		i += 1
 		if i >= m:
 			usage()
-		images = get_rename_image_list_in_one_post(sys.argv[i], select_image, exclude_image, select_index, exclude_index, sys.argv[i-1])
+		i += 1
+		dest_pattern = sys.argv[i] if i < m else "{date}/{date2}_%03d"
+		images = get_rename_image_list_in_one_post(dest_pattern, select_image, exclude_image, select_index, exclude_index, sys.argv[i-1])
 		rename_images(post_path, image_path, images, dry_run)
 	elif sys.argv[i] == "batch-rename-mult":
-		i += 2
+		i += 1
 		if i >= m:
 			usage()
+		i += 1
+		dest_pattern = sys.argv[i] if i < m else "{date}/{date2}_%03d"
 		select_post.append(sys.argv[i-1])
-		images = get_rename_image_list_in_posts(sys.argv[i], select_image, exclude_image, select_post, exclude_post, post_path)
+		images = get_rename_image_list_in_posts(dest_pattern, select_image, exclude_image, select_post, exclude_post, post_path)
 		rename_images(post_path, image_path, images, dry_run)
 	else:
 		usage()

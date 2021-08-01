@@ -4,7 +4,7 @@ date: 2020-05-16
 authors: ["DT君"]
 tags: ["学术组原创"]
 cover:
-  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210730165911.webp"
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-05-16/20200516_001.webp"
   small: ""
 
 ---
@@ -25,7 +25,7 @@ cover:
 
 但同性情欲从《国际疾病与相关健康问题统计分类》（ICD）中除名，不代表它的影响能立即波及到医学界和日常生活。扭转治疗至今仍旧大行其道，有时还被赋予「不要西方那一套」的神圣意义。将同性性唤起、易装或非传统的性别认同视为「变态」的想法，不会简单地就地蒸发。物质化的歧视也不一定只体现为强制性的「治病」，或者对「有病」「变态」「不男不女」的人施加暴力。甚至可以说，人们面对的不止是「歧视」「恐同」，因为**它们只是某些底层的东西浮上表面的征候**。
 
-{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210730170458.webp"
+{{< figure_purple src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-05-16/20200516_002.webp"
 title="GET OUT!">}}
 
 <br>
@@ -54,7 +54,7 @@ title="GET OUT!">}}
 
 <br>
 
-![c3d0ea27eca8ca50bceeae5c3ad14f90-sz_26429](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210730171011.webp)
+![c3d0ea27eca8ca50bceeae5c3ad14f90-sz_26429](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-05-16/20200516_003.webp)
 
 <br>
 
@@ -82,7 +82,7 @@ title="GET OUT!">}}
 
 <br>
 
-![2de39fd96fd121f943c8bf6b57c03287-sz_73830](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210730171144.webp)
+![2de39fd96fd121f943c8bf6b57c03287-sz_73830](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-05-16/20200516_004.webp)
 
 <br>
 
@@ -116,7 +116,7 @@ title="GET OUT!">}}
 
 <br>
 
-![9ca4e79a470b8d90845c041ff4be0751-sz_69483](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/20210730171249.webp)
+![9ca4e79a470b8d90845c041ff4be0751-sz_69483](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-05-16/20200516_005.webp)
 
 <br>
 
