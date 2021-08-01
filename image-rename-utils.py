@@ -6,6 +6,7 @@ import os.path
 import os
 import io
 import shutil
+import hashlib
 
 #  rename-images <src_pattern> <dest_pattern>
 #                                       rename images
@@ -21,6 +22,8 @@ Available commands:
                                        NOTE: dest_pattern is without extension
   batch-rename-mult <post_pattern> [<dest_pattern>]
                                        batch rename images in post files
+  list-unused-images                   list unused images
+  list-duplicated-images               list duplicated images
 
 Example of dest_pattern: default is {date}/{date2}_%%03d
   {date}                               the first 10 character of the file name
@@ -113,7 +116,7 @@ def search_image_in_one_file(select_image, exclude_image, select_index, exclude_
 			callback(userdata, line_number, index, image)
 
 
-def search_image_in_posts(select_image, exclude_image, select_post, exclude_post, post_path):
+def search_image_in_posts_0(select_image, exclude_image, select_post, exclude_post, post_path, callback):
 	for dirpath, dirnames, filenames in os.walk(post_path):
 		for name in filenames:
 			match = True
@@ -136,14 +139,18 @@ def search_image_in_posts(select_image, exclude_image, select_post, exclude_post
 			if not match:
 				continue
 
-			def callback(userdata, line_number, index, image):
-				print "%s:%d:%s" % (userdata, line_number, image)
 			try:
 				with open(os.path.join(dirpath, name), "rU") as file:
 					search_image_in_one_file(select_image, exclude_image, [], [], file, callback, name, False)
 			except Exception as e:
 				print "ERROR: Failed to open file '%s':" % name
 				print repr(e)
+
+
+def search_image_in_posts(select_image, exclude_image, select_post, exclude_post, post_path):
+	def callback(userdata, line_number, index, image):
+		print "%s:%d:%s" % (userdata, line_number, image)
+	search_image_in_posts_0(select_image, exclude_image, select_post, exclude_post, post_path, callback)
 
 
 def list_image_in_one_post(select_image, exclude_image, select_index, exclude_index, filename):
@@ -189,7 +196,7 @@ def rename_images(post_path, image_path, images, dry_run):
 		for name in filenames:
 			s = ""
 			try:
-				with open(os.path.join(dirpath, name), "r") as file:
+				with open(os.path.join(dirpath, name), "rb") as file:
 					s = file.read()
 			except Exception as e:
 				print "ERROR: Failed to open file '%s':" % filename
@@ -207,7 +214,7 @@ def rename_images(post_path, image_path, images, dry_run):
 				print "File '%s' changed" % name
 				if not dry_run:
 					try:
-						with open(os.path.join(dirpath, name), "w") as file:
+						with open(os.path.join(dirpath, name), "wb") as file:
 							file.write(s_new)
 					except Exception as e:
 						print "ERROR: Failed to save file '%s':" % filename
@@ -275,6 +282,106 @@ def get_rename_image_list_in_posts(pattern, select_image, exclude_image, select_
 			images += get_rename_image_list_in_one_post(pattern, select_image, exclude_image, [], [], os.path.join(dirpath, name))
 
 	return images
+
+
+def list_unused_images(select_image, exclude_image, select_post, exclude_post, post_path, image_path):
+	known_images = set()
+
+	def callback(userdata, line_number, index, image):
+		if not image in known_images:
+			known_images.add(image)
+	search_image_in_posts_0(select_image, exclude_image, select_post, exclude_post, post_path, callback)
+
+	for dirpath, dirnames, filenames in os.walk(image_path):
+		for name in filenames:
+			match = True
+
+			# check select_image
+			if len(select_image) > 0:
+				match = False
+				for patt in select_image:
+					if re.search(patt, image):
+						match = True
+						break
+				if not match:
+					continue
+
+			# check exclude_image
+			for patt in exclude_image:
+				if re.search(patt, image):
+					match = False
+					break
+			if not match:
+				continue
+
+			relname = os.path.relpath(os.path.join(dirpath, name), image_path).replace("\\", "/")
+			if not relname in known_images:
+				print relname
+
+
+def list_duplicated_images(select_image, exclude_image, select_post, exclude_post, post_path, image_path):
+	known_images = {}
+
+	def callback(userdata, line_number, index, image):
+		s = "    %s:%d" % (userdata, line_number)
+		if image in known_images:
+			known_images[image].append(s)
+		else:
+			known_images[image] = [s]
+	search_image_in_posts_0(select_image, exclude_image, select_post, exclude_post, post_path, callback)
+
+	known_hashes = {}
+
+	for dirpath, dirnames, filenames in os.walk(image_path):
+		for name in filenames:
+			match = True
+
+			# check select_image
+			if len(select_image) > 0:
+				match = False
+				for patt in select_image:
+					if re.search(patt, image):
+						match = True
+						break
+				if not match:
+					continue
+
+			# check exclude_image
+			for patt in exclude_image:
+				if re.search(patt, image):
+					match = False
+					break
+			if not match:
+				continue
+
+			absname = os.path.join(dirpath, name)
+			relname = os.path.relpath(absname, image_path).replace("\\", "/")
+			hash = hashlib.sha1()
+			try:
+				with open(absname, "rb") as file:
+					data = file.read()
+					hash.update(data)
+				hash = "size:%d sha1:%s" % (len(data), hash.hexdigest())
+				if hash in known_hashes:
+					known_hashes[hash].append(relname)
+				else:
+					known_hashes[hash] = [relname]
+			except Exception as e:
+				print "ERROR: Failed to open file '%s':" % absname
+				print repr(e)
+
+	for hash in known_hashes:
+		image_list = known_hashes[hash]
+		if len(image_list) > 1:
+			print "%s(%d):" % (hash, len(image_list))
+			for image in image_list:
+				if image in known_images:
+					lst = known_images[image]
+					print "  %s(%d):" % (image, len(lst))
+					for s in lst:
+						print s
+				else:
+					print "  %s(0):" % image
 
 def main():
 	select_image = []
@@ -376,6 +483,10 @@ def main():
 		select_post.append(sys.argv[i-1])
 		images = get_rename_image_list_in_posts(dest_pattern, select_image, exclude_image, select_post, exclude_post, post_path)
 		rename_images(post_path, image_path, images, dry_run)
+	elif sys.argv[i] == "list-unused-images":
+		list_unused_images(select_image, exclude_image, select_post, exclude_post, post_path, image_path)
+	elif sys.argv[i] == "list-duplicated-images":
+		list_duplicated_images(select_image, exclude_image, select_post, exclude_post, post_path, image_path)
 	else:
 		usage()
 
