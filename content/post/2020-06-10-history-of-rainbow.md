@@ -114,7 +114,7 @@ title="“吉尔伯特，你的彩虹拯救了我，谢谢你!”">}}
 
 <br>
 
-![1e0f08718af4bb01ab5bced435277ef4-sz_438392](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_016.gif)
+![1e0f08718af4bb01ab5bced435277ef4-sz_438392](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_016.webp)
 
 ![3cad0d079ebb0b6845eb028bd918d5ad-sz_242635](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_017.webp)
 
@@ -130,7 +130,7 @@ title="“吉尔伯特，你的彩虹拯救了我，谢谢你!”">}}
 
 <br>
 
-![cfc9d1fa057d3f787be59bc427ece7b2-sz_9286926](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_020.gif)
+![cfc9d1fa057d3f787be59bc427ece7b2-sz_9286926](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_020.webp)
 
 ![8f12782d25b46bfa02a00a36ba693090-sz_54472](https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources//images/2020-06-10/20200610_021.gif)
 
