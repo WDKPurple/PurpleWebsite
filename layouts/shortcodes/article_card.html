@@ -24,6 +24,7 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
+</div>
 <article class="post-entry">{{ if $my_src }}{{ if eq (.Get "size") "big" }}
   <figure class="entry-cover">{{ with $my_height }}
   <section style="position: relative; width: 100%; padding-top: {{ . }}">
@@ -48,3 +49,4 @@
   </section>{{ end }}{{ end }}
   <a class="entry-link" href="{{ $my_href }}"></a>
 </article>
+<div class="post-content">

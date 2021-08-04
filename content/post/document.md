@@ -675,12 +675,6 @@ title="从左到右：雅克·拉康（Jacques Lacan）、路易·阿尔都塞�
 ### 语法
 
 ~~~
-说明：需要放在
-{{%/* quit_post_content */%}}
-和
-{{%/* /quit_post_content */%}}
-之间，否则行距太大很难看
-
 {{</* article_card
 src="图片地址(可选,若未指定并且设置了page则会自动抓取)"
 title="标题(可选,若未指定并且设置了page则会自动抓取)"
@@ -695,8 +689,6 @@ height="强制指定封面图片的高度为宽度的一定比例，例如55%" (
 ### 例子
 
 ~~~
-{{%/* quit_post_content */%}}
-
 {{</* article_card
 src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
 title="GitHub"
@@ -732,12 +724,8 @@ size="big"
 {{</* article_card
 page="post/2019-06-17-six-lectures-1.md"
 */>}}
-
-{{%/* /quit_post_content */%}}
 ~~~
 
-{{% quit_post_content %}}
-
 {{< article_card
 src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
 title="GitHub"
@@ -773,8 +761,6 @@ size="big"
 {{< article_card
 page="post/2019-06-17-six-lectures-1.md"
 >}}
-
-{{% /quit_post_content %}}
 
 ## 山寨朋友圈
 

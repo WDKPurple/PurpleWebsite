@@ -6,7 +6,7 @@ authors: ["郑侑安"]
 cover:
   image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/2021-05-28-hong-kong-movies/2021-05-28-hong-kong-movies-0.webp"
 ShowToc: true
-tags: ["转载"]
+tags: ["转载", "影评"]
 ---
 
 
