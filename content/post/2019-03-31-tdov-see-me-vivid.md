@@ -4,14 +4,14 @@ date: 2019-03-31
 authors: ["THUPURPLE"]
 tags: ["跨性别"]
 cover:
-  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_01.png"
+  image: "https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_01.webp"
   hidden: true
 ---
 
 {{<figure
 align="center"
 width="60%"
-src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_01.png"
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_01.webp"
 >}}
 
 <small>
@@ -46,7 +46,7 @@ LGBTQIAP中的T是transgender的缩写，意为跨性别，指在心理上不认
 {{<figure
 align="center"
 width="60%"
-src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_02.png"
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_02.webp"
 >}}
 
 坐在食堂里，一寒的呼吸有一点急促，被约来的朋友轩宁明显感觉到了气氛有一些稍稍的不对劲，沉默着看着他。
@@ -98,7 +98,7 @@ src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_02.pn
 {{<figure
 align="center"
 width="60%"
-src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_03.png"
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_03.webp"
 >}}
 
 「她有时看起来很脆弱，看动漫会哭得一塌糊涂，会因为一点点小事就一个人『自闭』，把自己关起来哭；但她也很坚强，所有的疼痛、不堪都尽量自己默默承受。她尽量让自己活得积极乐观，做事也努力做到最好。她就是这样一个令人敬佩又让人心疼的人啊。」
@@ -116,7 +116,7 @@ src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_03.pn
 {{<figure
 align="center"
 width="60%"
-src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_04.png"
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_04.webp"
 >}}
 
 一起从图书馆里出来，她们在自行车的海洋里穿梭，话题突然转向了对未来的打算。
@@ -148,7 +148,7 @@ src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_04.pn
 {{<figure
 align="center"
 width="60%"
-src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_05.png"
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_05.webp"
 >}}
 
 她和父母谈到过使用激素的事，最终决定先观察几年。「我父亲会把我的性别认同和双相情感障碍结合起来，认为这不太正常。」Lily解释道，「但其实我也比较好奇，自己心理状况好一些的时候，还会不会那么想要使用激素。」
@@ -164,7 +164,7 @@ src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_05.pn
 {{<figure
 align="center"
 width="60%"
-src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_06.png"
+src="https://cdn.jsdelivr.net/gh/WDKPurple/StaticResources/images/20190331_06.webp"
 >}}
 
 据北京同志中心称，**性少数群体在青少年时期得抑郁症的概率比平均水平高出三倍，而成年后的性少数群体得抑郁症的概率比平均水平高出四倍。**心理疾病在性少数中绝不罕见，这一问题亟待关注。Lily在高中的时候就已经有抑郁的迹象了；这种迹象到了大学之后更加严重，而Lily的生活节奏也变得混乱。目前，Lily正在接受双相情感障碍的治疗。惊人的相似，一寒也曾经饱受双相情感障碍的折磨。尽管如今他们的状态都比较稳定，但未来还会有多少跨性别者、有多少性少数要遭受折磨，我们无法保持乐观。
