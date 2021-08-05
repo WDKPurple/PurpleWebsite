@@ -1,4 +1,4 @@
-resources/_gen/
+resources/
 public/
 workers-site/
 wrangler.toml
