@@ -383,6 +383,7 @@ def list_duplicated_images(select_image, exclude_image, select_post, exclude_pos
 				else:
 					print "  %s(0):" % image
 
+
 def main():
 	select_image = []
 	exclude_image = []
@@ -489,6 +490,7 @@ def main():
 		list_duplicated_images(select_image, exclude_image, select_post, exclude_post, post_path, image_path)
 	else:
 		usage()
+
 
 if __name__ == '__main__':
 	main()
