@@ -77,7 +77,8 @@ def docx_xml2md(fin, fout, filedate2, img_dict):
 			elif s == "js_toobar3":
 				S["end_content"] = True
 		elif name == "w:bookmarkEnd":
-			S["last_bookmark"] = u""
+			pass
+			# S["last_bookmark"] = u""
 
 	def end_element(name):
 		S["elems"].pop()
@@ -113,7 +114,7 @@ def docx_xml2md(fin, fout, filedate2, img_dict):
 					last_bookmark = S["last_bookmark"]
 					if last_bookmark == "activity-name":
 						S["title"] += data
-					elif last_bookmark == "meta_content":
+					elif last_bookmark == "meta_content" or last_bookmark == "copyright_logo":
 						S["author"] += data
 		else:
 			print "Warning: unexpected text", data, "in", back
