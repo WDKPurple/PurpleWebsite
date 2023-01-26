@@ -134,7 +134,7 @@ markup:
         renderer:
             unsafe: true
     # Goldmark has bug on bold/italics so we use blackfriday
-    defaultMarkdownHandler: blackfriday
+    defaultMarkdownHandler: goldmark
 #     highlight:
 #         # anchorLineNos: true
 #         codeFences: true
